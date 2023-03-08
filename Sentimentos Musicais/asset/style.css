@@ -1,0 +1,123 @@
+.box1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1 img{
+    margin: 10px;
+    border-radius: 10px;
+    width: 350px; 
+    height: 250px;
+}
+.box2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+.box2 img{
+    border-radius: 10px;
+}
+/*utilizando a , posso selecionar varias divs*/
+.box2 img, .box3 img, .box4 img{
+    width: 600px;
+    height: 300px;
+}
+.box3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.box3 img{
+    border-radius: 10px;
+}
+.box4{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.box4 img{
+    border-radius: 10px;
+}
+.bhome{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 1rem;
+}
+.bhome img{
+    border-radius: 10px;
+}
+.sub{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.container1{
+    padding-bottom: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+h2{
+    padding-bottom: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    text-align: justify;
+    color: hwb(195 1% 57% / 0.842)
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,0.9500175070028011) 1%, rgba(148,187,233,1) 100%);
+}
+p{
+    font-size: 100px;
+}
+.emo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 6rem;
+}
+a:link{
+    text-decoration: none;
+}
+.jan{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 1rem;
+    padding-top: 2rem;
+}
+.jan img{         
+    margin: 10px;
+    border-radius: 10px;
+    width: 350px; 
+    height: 400px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+.curio{
+    font-size: 44px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 2rem;
+    color: hwb(195 1% 57% / 0.904)
+}
+h2{
+    font-size: 20px;
+    margin: 5px;
+}
